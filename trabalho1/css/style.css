@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(11, 2, 51);
+}
+
+img, video, iframe {
+    margin: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+header {
+    background: rgb(255, 238, 0);
+    color: rgb(255, 238, 0);
+}
+
+.mainFoto{
+    width: 250px;
+    height: 180px;
+}
+
+p {
+    text-align: justify;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+span#monaco{
+    text-align: left;
+}
+
+main {
+    margin: auto;
+    background-color: white;
+    max-width: 700px;
+    padding: 1px 15px;
+    border-radius: 10px 0px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.418);
+}
+
+table {
+    margin: auto;
+}
