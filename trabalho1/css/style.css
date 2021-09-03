@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 32px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+header {
+    background-color: #009c3b;
+}
+
+nav#cabecalholinks {
+    padding: 6px;
+    text-align: center;
+    background-color: #ffdf00;
+}
+
+nav > a {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 1vw;
+    text-decoration: none;
+    color: black;
+}
+
+nav > a:hover {
+    padding: 5px;
+    background-color: #002776;
+    color: white;
+    border-radius: 10px;
+} 
