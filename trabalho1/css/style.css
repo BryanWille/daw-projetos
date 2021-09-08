@@ -36,3 +36,62 @@ nav > a:hover {
     color: white;
     border-radius: 10px;
 } 
+
+main {
+    margin: auto;
+    padding: 10px 300px;
+}
+
+main > p {
+    margin: 5px;
+    text-align: justify;
+}
+
+main > h2, h3, h4 {
+    margin: 10px;
+    text-align: center;
+}
+
+main > video, source, img {
+    max-width: 40%;
+    margin:0 auto;
+    display:block;
+    padding: 10px;
+}
+
+main > iframe {
+    padding: 10px;
+    display: block;
+    margin:auto;
+}
+
+main > table {
+    text-align: center;
+    margin: auto;
+    padding: 3px;
+
+}
+
+span#monaco{
+    text-align: center;
+    margin: auto;
+}
+
+footer {
+    background-color: #002776;
+    padding: 10px 0px;
+}
+
+footer > p {
+    text-align: center;
+    color: white;
+}
+
+footer > p > a {
+    color: #ffdf00;
+    text-decoration: none;
+}
+
+footer > p > a:hover {
+    color: #009c3b;
+}
