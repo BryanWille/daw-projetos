@@ -20,13 +20,7 @@ body{
     flex-direction: column;
     align-items: center;
     color: var(--lighter-color);
-}
-
-.time {
-    line-height: 1.2
-}
-.date{
-    line-height: 1;
+    line-height: 1.1;
 }
 
 #week-day {
@@ -43,4 +37,27 @@ body{
     font-family: var(--poppins-font);
 }
 
-#separator-1, #separator-2{}
+#separator, #separator-2{
+    display: none;
+}
+
+@media (min-width: 820px) {
+    #separator, #separator-2{
+        display: inline;
+    }
+
+    .date {
+        padding: 15px;
+        border-right: 2px dotted var(--lighter-color);
+    }
+
+    .time{
+        margin-left: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .clock {
+        padding: 20px;
+    }
+}
