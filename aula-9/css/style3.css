@@ -1,0 +1,22 @@
+h2{
+    background-color: red;
+}
+
+.box-1{
+    color: blue;
+    width: 350px;
+    height: 150px;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 25px;
+}
+
+.box-2{
+    box-sizing: border-box;
+    color: blue;
+    width: 350px;
+    height: 150px;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 25px;
+}

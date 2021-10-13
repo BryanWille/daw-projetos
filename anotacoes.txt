@@ -1,0 +1,8 @@
+box-sizing: border-box; 
+Faz com que a width e height sejam respeitados
+
+Inline boxes: elementos que ficam na mesma linha como
+a span em strong, são display inline por padrão
+
+A caixão não sera quebrada em uma nov alinha
+

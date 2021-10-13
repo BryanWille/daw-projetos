@@ -1,0 +1,24 @@
+p::first-line{
+    color: red;
+}
+
+a:hover {
+    color: green;
+    font-size: 50px;
+}
+
+div {
+    border: 1px solid red;
+}
+
+div li {
+    border: 1px solid cyan;
+}
+
+div > a {
+    color: red;
+}
+
+div a {
+    color: green;
+}
