@@ -1,0 +1,37 @@
+#headerName{
+    margin-left: 50px;
+}
+
+main{
+    padding: 30px;
+}
+
+@media (max-width: 990px) {
+    #navbarSupportedContent{
+        margin-left: 50px;
+    }
+}
+
+@media(min-width: 991px){
+    main{
+        margin: 0vw 15vw 15vw 15vw;
+    }
+}
+
+h1{
+    text-align: center;
+}
+
+
+
+p{
+    text-align: justify;
+}
+
+#gpmonaco{
+    display: grid;
+}
+
+#tabelamonaco{
+    grid-template-columns: ;
+}
