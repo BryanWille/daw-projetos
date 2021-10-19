@@ -25,7 +25,12 @@ h1{
 
 
 p{
+    margin: 10px 0px;
     text-align: justify;
+}
+
+hr{
+    margin: 40px 0px;
 }
 
 #colunamonaco{
