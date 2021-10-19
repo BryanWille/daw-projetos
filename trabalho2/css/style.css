@@ -70,7 +70,6 @@ h1{
 }
 
 
-
 /*------------------------------ GP MONÂCO ------------------------------*/
 
 #colunamonaco{
@@ -98,7 +97,7 @@ main{
     margin-bottom: 0px;
 }
 footer{
-    padding: 20px;
+    padding: 15px;
     background-color: rgb(41, 133, 5);
     color: white;
 }

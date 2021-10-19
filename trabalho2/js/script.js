@@ -7,6 +7,7 @@ function scrollFunction() {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
+    mybutton.style.bgcolor = "rgb(23, 116, 255)";
   }
 }
 
