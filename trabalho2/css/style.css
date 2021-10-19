@@ -32,3 +32,19 @@ p{
     min-width: 140px;
     text-align: center;
 }
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tr, td, table, th{
+    border: 1px solid black;
+}
+
+img, video, iframe {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+  }
