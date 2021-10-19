@@ -2,8 +2,6 @@
 
 main{
     padding: 30px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
 }
 
 table {
@@ -94,8 +92,11 @@ h1{
 }
 
 /*------------------------------ FOOTER ------------------------------*/
+main{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
 footer{
-    margin-top: -230px;
     padding: 20px;
     background-color: rgb(41, 133, 5);
     color: white;
