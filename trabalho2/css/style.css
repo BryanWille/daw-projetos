@@ -2,6 +2,8 @@
 
 main{
     padding: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 table {
@@ -91,7 +93,24 @@ h1{
     margin: auto;
 }
 
-
+/*------------------------------ FOOTER ------------------------------*/
+footer{
+    margin-top: -230px;
+    padding: 20px;
+    background-color: rgb(41, 133, 5);
+    color: white;
+}
+footer > p {
+    text-align: center;
+    margin: 0px;
+}
+footer > p > a {
+    text-decoration: none;
+    color: #ffdb0f;
+}
+footer > p > a:hover {
+    color: black;
+}
 /*------------------------------ MEDIA QUERIES ------------------------------*/
 
 @media (max-width: 990px) {
