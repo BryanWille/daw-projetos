@@ -45,7 +45,6 @@ h1{
     text-align: center;
 }
 
-
 /*------------------------------ GP MONÂCO ------------------------------*/
 
 #colunamonaco{
@@ -53,11 +52,19 @@ h1{
     text-align: center;
 }
 
+#videomonaco{
+    position: relative;
+}
+#videomonaco > iframe{
+    width: 100%;
+    height: 320px;
+}
 
 
 
-
-
+.tabela{
+    margin: auto;
+}
 
 
 /*------------------------------ MEDIA QUERIES ------------------------------*/
@@ -69,6 +76,9 @@ h1{
     .dropdown-menu{
         margin-right: 50px;
     }
+}
+
+@media (max-width: 767px) {
     #videomonaco{
         overflow: hidden;
         width: 100%;
