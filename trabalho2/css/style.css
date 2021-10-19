@@ -28,10 +28,6 @@ p{
     text-align: justify;
 }
 
-#gpmonaco{
-    display: grid;
-}
-
-#tabelamonaco{
-    grid-template-columns: ;
+#colunamonaco{
+    text-align: center;
 }
