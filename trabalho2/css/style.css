@@ -1,41 +1,7 @@
-#headerName{
-    margin-left: 50px;
-}
+/*------------------------------ CONFIGURAÇÕES GERAIS ------------------------------*/
 
 main{
     padding: 30px;
-}
-
-@media (max-width: 990px) {
-    #navbarSupportedContent{
-        margin-left: 50px;
-    }
-}
-
-@media(min-width: 991px){
-    main{
-        margin: 0vw 15vw 15vw 15vw;
-    }
-}
-
-h1{
-    text-align: center;
-}
-
-
-
-p{
-    margin: 10px 0px;
-    text-align: justify;
-}
-
-hr{
-    margin: 40px 0px;
-}
-
-#colunamonaco{
-    min-width: 140px;
-    text-align: center;
 }
 
 table {
@@ -58,5 +24,70 @@ img, video, iframe {
     height: auto;
     text-align: center;
     margin: auto;
-  }
+}
 
+p{
+    margin: 10px 0px;
+    text-align: justify;
+}
+
+hr{
+    margin: 40px 0px;
+}
+
+/*------------------------------ HEADER ------------------------------*/
+#headerName{
+    margin-left: 50px;
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+/*------------------------------ GP MONÂCO ------------------------------*/
+
+#colunamonaco{
+    min-width: 140px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/*------------------------------ MEDIA QUERIES ------------------------------*/
+
+@media (max-width: 990px) {
+    #navbarSupportedContent{
+        margin-left: 50px;
+    }
+    #dropdownitem{
+        margin-right: 50px;
+    }
+    #videomonaco{
+        overflow: hidden;
+        width: 100%;
+        padding-top: 56.25%;
+        position: relative;
+    }
+    #videomonaco > iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media(min-width: 991px){
+    main{
+        margin: 0vw 15vw 15vw 15vw;
+    }
+}
