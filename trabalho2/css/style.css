@@ -48,3 +48,10 @@ img, video, iframe {
     text-align: center;
     margin: auto;
   }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
