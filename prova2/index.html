@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- 
+        Professor por via de dúvida eu tirei o Font-Awesome, já que estava especificando html, css e bootstrap
+        mas no https://bryanwille.github.io/daw-projetos/prova2/index.html tá com os icones
+    -->
+
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
@@ -52,7 +57,9 @@
         }
         
         h1{
-            margin: 0px;
+            font-size: 40px;
+            text-align: center;
+            margin: 10px;
         }
 
         
@@ -71,6 +78,8 @@
             text-align: justify;
         }
         /* Material de apoio: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
+
+        /* ======== BOTÃO SUBIR PÁGINA ========= */
         #topButton {
             display: none;
             position: fixed;
@@ -92,6 +101,8 @@
             background-color: var(--corleve);
             color: var(--cortexto)
         } 
+
+        /* ======== BOTÃO MODO ESCURO ========= */
 
         #modoEscuro{
             position: fixed;
@@ -137,7 +148,7 @@
 
         #colunacor h2{
             margin: 8px 0px;
-            color: var(--corcontraste)
+            color: var(--corfundosuave)
         }
 
         #colunacor a{
@@ -168,7 +179,7 @@
             background-color: var(--corcoluna);
         }
         
-        #colunaconteudo p,  h2, h3 {
+        #colunaconteudo p, h2, h3 {
             margin: 0px;
             color: var(--cortexto);
         }
@@ -233,9 +244,8 @@
     
     <header>
         
-        <!-- H1 Dentro do Header -->
         <nav class="navbar navbar-expand-lg navbar-dark ml-auto mr-auto">
-            <h1 class="navbar-brand">Carl Sagan</h1>
+            <a class="navbar-brand">Carl Sagan</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -279,6 +289,7 @@
                     <div id="containerfoto">
                         <img src="https://i.imgur.com/P0U1OyS_d.png" alt="Foto Carl Sagan">
                     </div>
+                    <h1>Carl Sagan</h1>
 
                     <section id="resumo">
                         <h2 class="font-weight-normal">Resumo</h2>
@@ -417,6 +428,10 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 
+
+
+    <!-- Script Interno -->
+      
     <script>
 
         //Botão de Rolagem
