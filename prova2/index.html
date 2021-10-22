@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Bootstrap somente para a fonte     -->
+    <!-- Bootstrap somente para a fonte -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <!-- Font-Awesome Para Logos -->
@@ -27,13 +27,17 @@
             --corleve: #406E8E;
             --corfundo: #8EA8C3;
             --corfundosuave: #F7F7F2;
+            --italic: rgb(116, 116, 116);
         }
 
         /* ======== BODY ========= */
 
         body{
             background-color: var(--corfundo);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
+
+        
 
         /* ======== HEADER ========= */
         h1{
@@ -62,23 +66,78 @@
 
         /* ======== SECTIONS ========= */
 
+        /* ======== COLUNA COM COR ========= */
+
         #colunacor{
             background-color: var(--corcontraste);
-            color: white;
+            color: var(--corfundosuave);
             padding: 10px;
         }
+        
+        #containerfoto{
+            display: flex;
+            align-items: center;
+        }
+
+        #colunacor h2{
+            margin: 8px 0px;
+        }
+
+        #colunacor a{
+            color: var(--corfundosuave);
+            text-decoration: none;
+        }
+
+        #colunacor a:hover{
+
+        }
+
+        /* ======== COLUNA DE EXPERIÊNCIAS/ACADÊMICO ========= */
 
         #colunaconteudo{
             padding: 10px;
         }
         
+        #colunaconteudo p,  h2, h3 {
+            margin: 0px;
+        }
+
+        .light{
+            font-style: italic;
+            color: var(--italic);
+        }
+        
+        #colunaconteudo h2{
+            background-color: var(--corfundo);
+            color: var(--cortexto);
+            margin: 10px -10px;
+            padding: 2px;
+            padding-left: 10px;
+            font-weight: 600;
+        }
+        
+        #colunaconteudo h3{
+            margin: 8px 0px;
+        }
+
         /* ======== MEDIA QUERIES ========= */
 
         @media (max-width: 750px){
+            main{
+                border-radius: 0px;
+            }
             article{
                 display: grid;
                 grid-template-columns: 1fr;
             }
+        }
+
+        img{
+            border-radius: 50%;
+            max-width: 100%;
+            height: auto;
+            text-align: center;
+            margin: auto;
         }
     </style>
     <title>Carl Sagan</title>
@@ -95,18 +154,20 @@
 
                 <div id="colunacor">
 
-                    <img src="https://i.imgur.com/P0U1OyS_d.png" alt="Foto Carl Sagan">
+                    <div id="containerfoto">
+                        <img src="https://i.imgur.com/P0U1OyS_d.png" alt="Foto Carl Sagan">
+                    </div>
 
                     <section id="resumo">
-                        <h2>Resumo</h2>
+                        <h2 class="font-weight-normal">Resumo</h2>
         
-                        <p>Carl Sagan foi um Astrofísico e o maior divulgador científico do século XX, sendo reconhecido pela sua série Cosmos: Uma Viagem Pessoal exibida pela PBS em 1980. Possui também o prêmio Pulitzer de não ficção geral, e também Ph.D na Universidade de Chigado com teste em Astrofísica.</p>
+                        <p>Carl Sagan foi um Astrofísico e o maior divulgador científico do século XX, sendo reconhecido pela sua série Cosmos: Uma Viagem Pessoal exibida pela PBS em 1980. Possui também o prêmio Pulitzer de não ficção geral, e também Ph.D na Universidade de Chicago com teste em Astrofísica.</p>
                     </section>
 
                     <hr>
 
                     <section id="contato">
-                        <h2>Contato</h2>
+                        <h2 class="font-weight-bold">Contato</h2>
         
                         <ul>
                             <li> <i class="fas fa-phone-alt"></i> Telefone: +1 876-543-2123</li>
@@ -143,8 +204,12 @@
 
                     <section id="informacoes">
                         <h2>Apêndice</h2>
-                        <p></p>
+                        <!-- Fonte: Wikipédia -->
+                        <p>
+                        Carl Sagan foi um dos cientistas que promoveu a busca por seres extraterrestres apartir do projeto SETI, e enviou diversas vezs mensagens para o universo, uma espécie de aviso "estamos aqui, existe alguém por aí?". Previu formas de vidas nas nuvens de Vênus que inclusive hoje em dia tem pesquisas sobre isso, e também sobre o efeito estufa exagerado em Vênus. Sagan foi por boa parte de sua vida professor da Universidade Cornell, onde foi diretor do laboratório de estudos planetários.
+                        </p>
                     </section>
+
                 </div>
 
                 <div id="colunaconteudo"> 
@@ -154,33 +219,33 @@
         
                         <h3>Observatório Astrofísico Smithsonian</h3>
                         <p>Cargo: Pesquisador</p>
-                        <p>Inicio: 1962 - Fim: 1968</p>
-                        <p>Função: Trabalhava com pesquisas no observatório de cambridge.</p>
+                        <p class="light">Inicio: 1962 - Fim: 1968</p>
+                        <p class="light">Função: Trabalhava com pesquisas no observatório de cambridge.</p>
                         
                         <h3>Universidade de Harvard</h3>
                         <p>Cargo: Professor e Pesquisador de Astrofísica</p>
-                        <p>Inicio: 1963 - Fim: 1968</p>
-                        <p>Função: Lecionava e pesquisa na Universidade de Harvard.</p>
+                        <p class="light">Inicio: 1963 - Fim: 1968</p>
+                        <p class="light">Função: Lecionava e pesquisa na Universidade de Harvard.</p>
         
                         <h3>Universidade de Cornell</h3>
                         <p>Cargo: Professor titular e diretor do laboratório de estudos planetários.</p>
-                        <p>Inicio: 1968 - Fim: 1971</p>
-                        <p>Função: Professor titular de um dos maiores laboratórios de estudos planetários do mundo.</p>
+                        <p class="light">Inicio: 1968 - Fim: 1971</p>
+                        <p class="light">Função: Professor titular de um dos maiores laboratórios de estudos planetários do mundo.</p>
         
                         <h3>Universidade de Cornell</h3>
                         <p>Cargo: Diretor associado ao Centro de Radiofísica e Investigação Espacial de Cornell</p>
-                        <p>Inicio: 1972 - Fim: 1981</p>
-                        <p>Função: Direcionava recursos do pesquisa de radiofísica e invesgitação espacial de Cornell.</p>
+                        <p class="light">Inicio: 1972 - Fim: 1981</p>
+                        <p class="light">Função: Direcionava recursos do pesquisa de radiofísica e invesgitação espacial de Cornell.</p>
         
                         <h3>NASA</h3>
                         <p>Cargo: Assessor Astrofísico em Missões Espaciais</p>
-                        <p>Inicio: 1954 - Fim: 1996</p>
-                        <p>Função: Assessourou os astronautas da Apollo 11, liderou expedições que enviavam as naves Espaciais para invesgitar o sistema solar e escreveu a primeira mensagem da humanidade para fora do Sistema do Solar.</p>
+                        <p class="light">Inicio: 1954 - Fim: 1996</p>
+                        <p class="light">Função: Assessourou os astronautas da Apollo 11, liderou expedições que enviavam as naves Espaciais para invesgitar o sistema solar e escreveu a primeira mensagem da humanidade para fora do Sistema do Solar.</p>
         
                         <h3>PBS</h3>
                         <p>Cargo: Apresentador e Consultor</p>
-                        <p>Início: 1978 - Fim: 1980</p>
-                        <p>Função: Foi apresentador da maior série de divulgação científica que foi divulgada em mais de 60 países, com mais de 600 milhões de telespectadores, sendo assim o maior quadro da PBS.</p>
+                        <p class="light">Início: 1978 - Fim: 1980</p>
+                        <p class="light">Função: Foi apresentador da maior série de divulgação científica que foi divulgada em mais de 60 países, com mais de 600 milhões de telespectadores, sendo assim o maior quadro da PBS.</p>
         
                     </section>
 
@@ -191,25 +256,25 @@
         
                         <h3>Astrofísica</h3>
                         <p>Universidade de Chicago</p>
-                        <p>Inicio: 1950 - Fim: 1954 </p>
+                        <p class="light">Inicio: 1950 - Fim: 1954 </p>
         
                         <h3>Mestrado em Física</h3>
                         <p>Instituição: Universidade de Chicago</p>
-                        <p>Inicio: 1955 - Fim: 1956</p>
+                        <p class="light">Inicio: 1955 - Fim: 1956</p>
                 
                         <h3>Doutor em Astrofísica</h3>
                         <p>Instituição: Universidade de Chicago</p>
-                        <p>Inicio: 1956 - Fim: 1960</p>
+                        <p class="light">Inicio: 1956 - Fim: 1960</p>
         
                         <h3>Pesquisador Astrofísico</h3>
                         <p>Instiuição: Universidade de Harvard</p>
-                        <p>Inicio: 1963 - Fim: 1968</p>
+                        <p class="light">Inicio: 1963 - Fim: 1968</p>
         
                         <h3>Artigo Científico Life in the Clouds of Venus?</h3>
                         <p>Instiuição: Universidade de Harvard</p>
-                        <p>Ano: 1967</p>
+                        <p class="light">Ano: 1967</p>
                     </section>
-            </div>
+                </div>
 
 
         </article>
