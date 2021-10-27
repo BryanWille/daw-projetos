@@ -13,4 +13,5 @@ if quantLitros % 18 > 1 and quantLatas % 18 > 0:
     quantLatas += 1
 
 preco = quantLatas * 80
-print(f"Tem que se comprar {quantLatas}, resultando no valor total fica: R${preco}")
+print(f"Um total de {quantLitros} litros, então tem que comprar {quantLatas} latas",
+      f"\nResultando no valor total de: R${preco:.2f}")
