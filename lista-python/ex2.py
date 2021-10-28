@@ -1,7 +1,7 @@
 def converterSegundos(segundosTempo):
     segundos = (segundosTempo % 60)
-    minutos = (segundosTempo % 60) / 60
-    horas = (minutos % 3600)
+    minutos = (segundosTempo % 3600) // 60
+    horas = segundosTempo // 3600
     return f'{horas}:{minutos}:{segundos}'
 
 
