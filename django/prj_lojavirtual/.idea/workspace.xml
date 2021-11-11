@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e30fc5c-bd30-4cca-8077-95e6ef1de440" name="Changes" comment="Em caso de não achar a paginas, o django ja detecta erro e coloca, mas tem que utilizar no settings.py como Debug = True (porque ai desativa a opção para programadores tentar achar o erro, e so passa a mensagem de erro ao usuario)">
-      <change afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/backpack.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lojavirtual/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/lojavirtual/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
+    <list default="true" id="8e30fc5c-bd30-4cca-8077-95e6ef1de440" name="Changes" comment="Script, Css e img na static">
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main/sobre.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/sobre.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +62,7 @@
       <workItem from="1636288293580" duration="864000" />
       <workItem from="1636289170993" duration="551000" />
       <workItem from="1636635511404" duration="2305000" />
-      <workItem from="1636637829126" duration="513000" />
+      <workItem from="1636637829126" duration="628000" />
     </task>
     <task id="LOCAL-00001" summary="header e footer parametrizados para uso geral">
       <created>1636637012438</created>
@@ -86,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636637060785</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Script, Css e img na static">
+      <created>1636638412496</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1636638412496</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +106,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="header e footer parametrizados para uso geral" />
     <MESSAGE value="Em caso de não achar a paginas, o django ja detecta erro e coloca, mas tem que utilizar no settings.py como Debug = True (porque ai desativa a opção para programadores tentar achar o erro, e so passa a mensagem de erro ao usuario)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Em caso de não achar a paginas, o django ja detecta erro e coloca, mas tem que utilizar no settings.py como Debug = True (porque ai desativa a opção para programadores tentar achar o erro, e so passa a mensagem de erro ao usuario)" />
+    <MESSAGE value="Script, Css e img na static" />
+    <option name="LAST_COMMIT_MESSAGE" value="Script, Css e img na static" />
   </component>
 </project>
