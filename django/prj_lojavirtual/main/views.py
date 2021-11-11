@@ -1,11 +1,5 @@
 from django.shortcuts import render
 
-def sobre(request):
-    return render(request, 'main/sobre.html')
-
-def contato(request):
-    return render(request, 'main/contato.html')
-
 def index(request):
     context = {
         'nome': "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
@@ -15,5 +9,12 @@ def index(request):
         "imagem": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
     }
     return render(request, 'main/index.html', context)
+
+
+def sobre(request):
+    return render(request, 'main/sobre.html')
+
+def contato(request):
+    return render(request, 'main/contato.html')
 
 # Create your views here.

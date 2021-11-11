@@ -1,1 +1,1 @@
-alert("Olá, seu script funcionou!")
+alert("Olá, seu script funcionou!");
