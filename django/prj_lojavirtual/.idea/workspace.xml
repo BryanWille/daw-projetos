@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e30fc5c-bd30-4cca-8077-95e6ef1de440" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/barra_navegacao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venvcommand.txt" afterDir="false" />
+    <list default="true" id="8e30fc5c-bd30-4cca-8077-95e6ef1de440" name="Changes" comment="Em caso de não achar a paginas, o django ja detecta erro e coloca, mas tem que utilizar no settings.py como Debug = True (porque ai desativa a opção para programadores tentar achar o erro, e so passa a mensagem de erro ao usuario)">
+      <change afterPath="$PROJECT_DIR$/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/backpack.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lojavirtual/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/lojavirtual/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main/contato.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/contato.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/main/sobre.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/sobre.html" afterDir="false" />
     </list>
@@ -26,6 +25,7 @@
       <list>
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -44,14 +44,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lojavirtual" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="project.scopes" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/img" />
       <recent name="$PROJECT_DIR$/lojavirtual" />
     </key>
   </component>
@@ -67,8 +69,24 @@
       <workItem from="1636286840720" duration="399000" />
       <workItem from="1636288293580" duration="864000" />
       <workItem from="1636289170993" duration="551000" />
-      <workItem from="1636635511404" duration="1458000" />
+      <workItem from="1636635511404" duration="2305000" />
+      <workItem from="1636637829126" duration="513000" />
     </task>
+    <task id="LOCAL-00001" summary="header e footer parametrizados para uso geral">
+      <created>1636637012438</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636637012438</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Em caso de não achar a paginas, o django ja detecta erro e coloca, mas tem que utilizar no settings.py como Debug = True (porque ai desativa a opção para programadores tentar achar o erro, e so passa a mensagem de erro ao usuario)">
+      <created>1636637060785</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1636637060785</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,5 +103,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="header e footer parametrizados para uso geral" />
+    <MESSAGE value="Em caso de não achar a paginas, o django ja detecta erro e coloca, mas tem que utilizar no settings.py como Debug = True (porque ai desativa a opção para programadores tentar achar o erro, e so passa a mensagem de erro ao usuario)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Em caso de não achar a paginas, o django ja detecta erro e coloca, mas tem que utilizar no settings.py como Debug = True (porque ai desativa a opção para programadores tentar achar o erro, e so passa a mensagem de erro ao usuario)" />
   </component>
 </project>

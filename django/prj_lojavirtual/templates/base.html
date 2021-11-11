@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 {% load static %}
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -5,10 +6,12 @@
     <!-- tags obrigatórias -->
     <meta charset="UTF-8">
     <title>Projeto Django</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 <body>
     {% include 'barra_navegacao.html' %}
     {% block conteudo %}
     {% endblock conteudo %}
+    <script src="{% static 'js/script.js' %}"></script>
 </body>
 </html>
