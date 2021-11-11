@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8e30fc5c-bd30-4cca-8077-95e6ef1de440" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/main/contato.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/sobre.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lojavirtual/lojavirtual/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lojavirtual/lojavirtual/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lojavirtual/lojavirtual/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lojavirtual/lojavirtual/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lojavirtual/lojavirtual/wsgi.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/barra_navegacao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venvcommand.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lojavirtual/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/lojavirtual/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lojavirtual/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/lojavirtual/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main/contato.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/contato.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main/sobre.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/sobre.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +45,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lojavirtual" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -59,7 +66,8 @@
       <workItem from="1636286516492" duration="311000" />
       <workItem from="1636286840720" duration="399000" />
       <workItem from="1636288293580" duration="864000" />
-      <workItem from="1636289170993" duration="98000" />
+      <workItem from="1636289170993" duration="551000" />
+      <workItem from="1636635511404" duration="1458000" />
     </task>
     <servers />
   </component>
