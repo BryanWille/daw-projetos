@@ -10,21 +10,24 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
-import os
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure--@#+*60!9=8yp)4f_v$ke=^y$s2-y!76@rbdbm16iyi-ia$9m@'
+SECRET_KEY = 'django-insecure-lbf&j0@w0(84ypkn9l&@^3d(k%b(hp0vd52ddq#1abhp0pu6#%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+
 
 # Application definition
 
@@ -36,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'stdimage',
     'main',
     'produtos',
 ]
@@ -71,6 +73,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'lojavirtual.wsgi.application'
 
+
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
@@ -80,6 +83,7 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
@@ -99,6 +103,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
@@ -112,24 +117,25 @@ USE_L10N = True
 
 USE_TZ = True
 
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# Default primary key field type
+# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
+
 # para carregar arquivos estáticos em ambiente de desenvolvimento
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 # o comando a seguir faz a mesma coisa que o acima, ou seja
 # concatena o diretório base com o nome do diretório
 # onde se encontram os arquivos estáticos
 # STATICFILES_DIRS = [BASE_DIR / "static"]
-
-# somente para ambiente de produção
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # configurações para upload de imagens
-MEDIA_ROOT = os.path.join(BASE_DIR, 'upload')  # para uploads de arquivos pelos usuários
+MEDIA_ROOT = os.path.join(BASE_DIR, 'upload') # para uploads de arquivos pelos usuários
 MEDIA_URL = '/upload/'
 
-# Default primary key field type
-# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

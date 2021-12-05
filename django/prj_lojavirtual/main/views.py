@@ -1,5 +1,6 @@
 from django.shortcuts import render
 
+
 def index(request):
     context = {
         'nome': "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
@@ -14,7 +15,6 @@ def index(request):
 def sobre(request):
     return render(request, 'main/sobre.html')
 
+
 def contato(request):
     return render(request, 'main/contato.html')
-
-# Create your views here.

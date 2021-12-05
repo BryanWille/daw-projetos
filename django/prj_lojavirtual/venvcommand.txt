@@ -1,2 +1,0 @@
-Windows:
-na pasta django/prj_lojavirtual $ python -m venv venv

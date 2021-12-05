@@ -1,1 +1,1 @@
-alert("Olá, seu script funcionou!");
+window.alert("Olá Django");
