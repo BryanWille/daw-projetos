@@ -12,11 +12,16 @@
 
     <!-- CSS Específico deste projeto -->
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" href="{% static 'css/produtos.css' %}">
+
 </head>
 <body>
 {% include 'barra_navegacao.html' %}
-{% block conteudo %}
-{% endblock conteudo %}
+<div class="container-fluid">
+    {% block conteudo %}
+    {% endblock conteudo %}
+</div>
+
 
 <!-- Scripts Bootstrap -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

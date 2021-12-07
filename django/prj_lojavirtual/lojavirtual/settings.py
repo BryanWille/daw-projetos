@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'stdimage',
     'main',
     'produtos',
+    'carrinho',
 ]
 
 MIDDLEWARE = [
@@ -140,3 +141,5 @@ MEDIA_URL = '/upload/'
 
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+ID_CARRINHO = 'carrinho'
