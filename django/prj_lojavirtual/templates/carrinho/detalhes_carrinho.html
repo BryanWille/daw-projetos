@@ -43,6 +43,5 @@
     </tbody>
 </table>
 <a href="{% url 'produtos:listar_produtos' %}">Comprar mais produtos</a>
-<a href="#">Finalizar</a>
-{% endif %}
+<a href="{% url 'pedidos:criar_pedido' %}"> Finalizar</a>{% endif %}
 {% endblock %}
