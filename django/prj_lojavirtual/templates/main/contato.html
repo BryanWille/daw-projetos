@@ -1,5 +1,17 @@
 {% extends "base.html" %}
 {% block conteudo %}
 <h1>Entre em contato!</h1>
-    <h2>Mande sua Mensagem que responderemos em breve</h2>
+{% if messages %}
+<ul>
+    {% for message in messages %}
+    <li> {{ message }}</li>
+    {% endfor %}
+</ul>
+{% else %}
+<form method="POST" class="contact">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Enviar Mensagem</button>
+</form>
+{% endif %}
 {% endblock conteudo %}
