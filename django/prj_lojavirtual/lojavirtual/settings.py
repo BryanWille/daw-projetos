@@ -69,6 +69,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+
+                'carrinho.context_processors.carrinho'
             ],
         },
     },
@@ -144,3 +146,6 @@ MEDIA_URL = '/upload/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 ID_CARRINHO = 'carrinho'
+
+LOGIN_REDIRECT_URL = 'index'
+LOGOUT_REDIRECT_URL = 'index'
